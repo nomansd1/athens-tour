@@ -32,10 +32,9 @@ function Section1() {
     navbarClasses.push('scrolled')
   }
 
+
     return (
       <>
-      
-      {/* {!New.matches?    */}
       <div className={navbarClasses.join(" ")} >
         <div className="left_section1_menu" >
           <a href="#" className="s1"><span>Stops</span></a>
@@ -46,20 +45,6 @@ function Section1() {
         <span className="section1_right">Share</span>
       </div>
         
-        {/* : */}
-{/*         
-        <div className="left_section1_menu" 
-        style={{
-          paddingTop:"10px",
-          borderBottom:"1px solid lightgray",
-          paddingBottom:"7px"
-          }}>
-        <span>Stops</span>
-        <span>About</span>
-        <span>Reviews</span>
-        <span>Questions</span>
-    </div> */}
-    {/* }  */}
       </>
     )
 }
