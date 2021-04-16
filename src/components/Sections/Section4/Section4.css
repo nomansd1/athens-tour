@@ -1,0 +1,32 @@
+.section4{
+    display: flex;
+    justify-content: space-around;
+    padding:2%;
+}
+
+.box{
+    width:400px;height:200px;background-color:#F8F8F8;display: flex;justify-content: center;align-items: center;
+    margin-left: 10px;
+    
+}
+
+.main_box{
+    display: flex;flex-wrap: wrap;
+}
+
+.price{
+    display:flex;flex-wrap: wrap;justify-content: space-evenly;
+}
+
+.NOT{
+ opacity: .5;
+}
+
+@media screen and (max-width: 580px) {
+    .box{
+        margin-top:10px;
+        width:320px;
+        text-align: center;
+        }
+     
+  }

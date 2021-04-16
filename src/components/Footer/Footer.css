@@ -1,0 +1,4 @@
+.footer{
+    display:flex;justify-content:space-around;align-items: center;background-color: #4D5A6C;padding:3%;
+    flex-wrap: wrap;margin-top:15px;
+}

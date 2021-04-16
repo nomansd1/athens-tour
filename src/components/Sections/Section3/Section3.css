@@ -1,0 +1,12 @@
+.section3_main{
+    display:flex;justify-content: space-around;
+    margin-top: 10%;
+    /* border: 2px solid blue; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.label:focus {
+    color: #ffff;
+}

@@ -1,0 +1,24 @@
+.main_header{
+    display:flex;justify-content:space-around;
+    /* border: 2px solid blue; */
+    background-color:#5894A1;
+    padding: 20px;
+}
+.header_center{
+    display:flex;justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+.header_inside{
+    display:flex;
+    flex:.3
+    ;justify-content: center;
+
+
+}
+
+@media only screen and (max-width: 750px) {
+    .main_header {
+      background-color: lightblue;
+    }
+  }

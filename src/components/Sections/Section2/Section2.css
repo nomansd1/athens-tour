@@ -1,0 +1,24 @@
+.section2_main{
+    display:flex;justify-content: space-around; 
+    /* border:2px solid blue; */
+    flex-wrap: wrap;
+    
+    padding-top:5% ;
+    
+}
+
+.section2_components{
+    /* border:2px solid red; */
+    justify-content:center;
+    
+
+}
+
+#section_component_left{flex:.6;display:flex;
+    /* border:2px solid green; */
+    flex-wrap: wrap;}
+#section_component_right{flex:.3;justify-content: center;display: flex;padding-top:17px;}
+
+.right_card{
+    width:290px;height:400px;text-align:center;padding-top:18px;
+}
